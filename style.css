@@ -1,0 +1,82 @@
+/* Styles for all texts*/
+body {
+    
+    background-image: url("img/photo.jpg");
+    color: RGB(0,0,0)
+    background-attachment fixed;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Styles for the intro div*/
+#inro{
+    min-height: 30vh;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    background-color: black; /*.92 is the opacity level*/
+    color: rgb(225,225,225);
+    text-align: center;
+}
+
+h1,h3{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    margin:0
+}
+
+p{
+    font-size: 16px;
+    font-family: 'EB Garmond', serif;
+}
+
+#parallax {
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    background-color: white; /*.92 is the opacity level*/
+}
+
+#byline{
+    font-family: 'Noto Sans',  sans-serif;
+}
+
+.date{
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.pcut{
+    font-size: 12px;
+    font-family: 'Opens' , sans-serif;
+    text-align: right;
+}
+
+a{
+    color: rgb(0,0,128);
+}
+
+a:hover{
+    opacity: .6;
+}
+
+/* Styles for the footer*/
+footer{
+color: rgb(225,225,225);
+font-family: "Noto Sans", sans-serif;
+width: 60%;
+margin: auto;
+padding: 2%;
+text-shadow: 2px 2px 5px black;
+background-color: rgba(17,1,1,0.92);
+}
+
+h4{
+    position: relative;
+    margin: auto;
+}
+
+.gap{
+    min-height: 100vh;
+}
